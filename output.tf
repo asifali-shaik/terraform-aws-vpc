@@ -1,4 +1,4 @@
-#  output "az-info" {
-#     value = module.vpc.az_names
+  output "az-info" {
+     value = module.vpc.az_names
   
-#   }
+   }
