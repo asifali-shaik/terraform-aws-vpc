@@ -1,4 +1,4 @@
-# output "az-info" {
-#     value = data.aws_availability_zones.available
+#  output "az-info" {
+#     value = module.vpc.az_names
   
-#  }
+#   }
