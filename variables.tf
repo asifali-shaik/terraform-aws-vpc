@@ -98,10 +98,14 @@ variable "nat_tags" {
 }
 
 
+variable "vpc-peering" {
+    default = {}
+    type = map
+  
+}
 
-
-
-
-
-
-
+variable "is_peering_requried" {
+    default = false
+    type = bool
+  
+}
